@@ -3,5 +3,3 @@ target/
 ffi/
 gen/
 out/
-worlds/app/*.bak
-# worlds/

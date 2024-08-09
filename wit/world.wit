@@ -1,5 +1,9 @@
 package local:demo;
 
 world app {
-  export add: func(a: u32, b: u32) -> u32;
+  record point {
+    x: u32,
+    y: u32,
+  }
+  export add: func(a: point, b: point) -> point;
 }
