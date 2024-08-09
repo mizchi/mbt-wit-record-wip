@@ -1,9 +1,5 @@
 package local:demo;
 
-world my-world {
-  import host: interface {
-    log: func(param: string);
-  }
-
-  export run: func();
+world app {
+  export add: func(a: u32, b: u32) -> u32;
 }
